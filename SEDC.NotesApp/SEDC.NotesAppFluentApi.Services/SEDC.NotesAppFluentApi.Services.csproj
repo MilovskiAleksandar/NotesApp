@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.NotesAppFluentApi.DataAccess\SEDC.NotesAppFluentApi.DataAccess.csproj" />
+    <ProjectReference Include="..\SEDC.NotesAppFluentApi.Domain\SEDC.NotesAppFluentApi.Domain.csproj" />
+    <ProjectReference Include="..\SEDC.NotesAppFluentApi.DTOs\SEDC.NotesAppFluentApi.DTOs.csproj" />
+    <ProjectReference Include="..\SEDC.NotesAppFluentApi.Mappers\SEDC.NotesAppFluentApi.Mappers.csproj" />
+    <ProjectReference Include="..\SEDC.NotesAppFluentAPi.Shared\SEDC.NotesAppFluentAPi.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
